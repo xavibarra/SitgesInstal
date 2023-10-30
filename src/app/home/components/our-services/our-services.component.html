@@ -1,62 +1,62 @@
-<section id="services">
-  <h2 class="centred-text marginb">Serveis</h2>
-  <p class="centred-text marginb">Oferim els sgüents serveis:</p>
+<section id="services" class="marginb">
+  <h2 class="centred-text marginb">{{ "services.services" | translate }}</h2>
+  <p class="centred-text marginb">{{ "services.subtitle" | translate }}</p>
   <div class="services-cards">
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-solarPanel.jpg'"
       (click)="solarPanelsButton()"
     >
-      <h3>Instal·lacions de plaques solars</h3>
+      <h3>{{ "services.one" | translate }}</h3>
     </app-service-card>
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-electrical.jpg'"
       (click)="electricalButton()"
     >
-      <h3>Instal·lacions elèctriques</h3>
+      <h3>{{ "services.two" | translate }}</h3>
     </app-service-card>
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-plumbing.jpg'"
       (click)="plumbingButton()"
     >
-      <h3>Instal·lació d'aigua</h3>
+      <h3>{{ "services.three" | translate }}</h3>
     </app-service-card>
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-reforms.jpg'"
       (click)="reformsButton()"
     >
-      <h3>Reformes</h3>
+      <h3>{{ "services.four" | translate }}</h3>
     </app-service-card>
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-gas.jpg'"
       (click)="gasButton()"
     >
-      <h3>Instal·lació de gas</h3>
+      <h3>{{ "services.five" | translate }}</h3>
     </app-service-card>
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-heating.jpg'"
       (click)="heatingButton()"
     >
-      <h3>Calefacció</h3>
+      <h3>{{ "services.six" | translate }}</h3>
     </app-service-card>
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-airConditioning.jpg'"
       (click)="airConditioningButton()"
     >
-      <h3>Aire condicionat</h3>
+      <h3>{{ "services.seven" | translate }}</h3>
     </app-service-card>
     <app-service-card
       class="services-card"
       [backgroundImage]="'/assets/img/services-repairs.jpg'"
       (click)="repairsButton()"
     >
-      <h3>Manteniment i reparacions</h3>
+      <h3>{{ "services.eight" | translate }}</h3>
     </app-service-card>
   </div>
 </section>

@@ -1,3 +1,111 @@
 {
-  "prova": "This is a test"
+  "navBar": {
+    "us": "Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "aboutUs": {
+    "about": "About Us",
+    "welcome": "Welcome to",
+    "name": "Sitges Installations.",
+    "first": "We are a company dedicated to all types of installations. As our name suggests, we have a physical office in Sitges, and we focus our activities in the Garraf region, although we serve our clients wherever they request.",
+    "second": "On our website, you can find all the services we offer to provide you with quality service and complete satisfaction.",
+    "third": "For us,",
+    "span": "customer satisfaction is the most important",
+    "fourth": ", which is why we offer a close and trustworthy approach, taking care of every detail in each project.",
+    "fifth": "We encourage you to contact us so we can advise you and start working on what you need.",
+    "call": "CALL"
+  },
+  "services": {
+    "services": "Services",
+    "subtitle": "We offer the following services:",
+    "one": "Solar Panel Installations",
+    "two": "Electrical Installations",
+    "three": "Water Installation",
+    "four": "Renovations",
+    "five": "Gas Installation",
+    "six": "Heating",
+    "seven": "Air Conditioning",
+    "eight": "Maintenance and Repairs"
+  },
+  "ourWork": {
+    "title": "Our Work",
+    "subtitle": "Check out our work:"
+  },
+  "reviews": {
+    "writte": "WRITE A REVIEW"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Send us an email",
+    "name": "SITGES INSTALLATIONS",
+    "find": "Find us on the map",
+    "openMap": "OPEN MAP",
+    "adress": "Verge de la Llum Street 6"
+  },
+  "solarPanels": {
+    "title": "SOLAR PANEL INSTALLATION",
+    "name": "At Sitges Installations",
+    "one": ", we are committed to providing our clients with high-quality services that not only help them save on their energy bills but also contribute to environmental preservation.",
+    "two": "Our highly skilled technicians are at your service to provide personalized guidance and carry out solar panel installations that best suit your home or business. We prioritize the well-being of our workers, and all projects are executed following rigorous standards, ensuring a reliable and protected work environment.",
+    "three": "By choosing us, you are not only investing in a cleaner and sustainable energy source but also in the well-being of your community and a healthier future for all.",
+    "four": "Contact us today for a no-obligation quote for solar panel installation in Sitges and the entire Garraf region. We are here to help you take a step toward a brighter and more eco-friendly tomorrow."
+  },
+  "airConditioning": {
+    "title": "AIR CONDITIONING INSTALLATION",
+    "name": "At Sitges Installations",
+    "one": ", our mission is to provide our clients with exceptional climate control solutions that ensure comfort and energy efficiency in their homes and businesses. With years of experience in the industry, our team of qualified technicians is committed to providing the best air conditioning installation services in Sitges and the Garraf region.",
+    "two": "We understand the importance of maintaining a comfortable indoor environment during hot and cold seasons, which is why we offer personalized guidance to ensure you choose the best air conditioning option for your specific needs. Our installation is precise and thorough, and we strictly adhere to quality standards to ensure optimal performance.",
+    "three": "When you choose our air conditioning installation services, you are not only ensuring a more comfortable and pleasant environment but also making an investment in energy savings and cost reduction.",
+    "four": "Contact us today for a no-obligation quote and start enjoying first-class climate control in your home or business. We are here to make your environment more pleasant and efficient."
+  },
+  "electrical": {
+    "title": "ELECTRICAL INSTALLATIONS",
+    "name": "At Sitges Installations",
+    "one": ", we are experts in providing high-quality electrical installations in Sitges and the Garraf region. Our dedication is focused on providing our clients with safe and efficient electrical supply for their homes and businesses.",
+    "two": "Our highly qualified team of technicians has the necessary experience to handle electrical installation projects of all kinds, from small changes and repairs to complete installations in new constructions. We work with care and attention to detail to ensure that all electrical components function correctly and comply with safety regulations.",
+    "three": "When you trust our electrical installation services, you can rest assured that you are protecting your home or business from electrical risks and ensuring the smooth operation of your electrical equipment and systems.",
+    "four": "Contact us today for a personalized quote and ensure your electrical peace of mind. We are here to make your installation safe and reliable."
+  },
+  "gas": {
+    "title": "GAS INSTALLATION",
+    "name": "At Sitges Installations",
+    "one": ", we are dedicated to offering reliable gas installation services in Sitges and the entire Garraf region. As specialists in this field, we prioritize ensuring that your gas installations are safe, efficient, and comfortable.",
+    "two": "Our qualified and experienced technicians are prepared to handle all aspects of your gas installation, whether for domestic or commercial use. From installing new gas networks to repairing and maintaining existing ones, you can trust our expertise and knowledge.",
+    "three": "We understand the importance of safety when it comes to gas, and we strictly follow all regulations and standards to ensure that your installation is completely safe and trouble-free.",
+    "four": "Contact us today for a no-obligation personalized quote and enjoy the peace of mind of having a reliable and efficient gas installation in your home or business. We are here to cater to all your gas needs with professionalism and dedication."
+  },
+  "heating": {
+    "title": "HEATING INSTALLATION",
+    "name": "At Sitges Installations",
+    "one": ", we are dedicated to providing top-tier heating solutions in Sitges and the Garraf region. We understand that maintaining a warm and cozy environment is essential for your comfort, especially during the winter months.",
+    "two": "Our expert technicians are ready to help you select and install the heating system that best suits your needs and preferences, whether it's a boiler, radiators, underfloor heating, or other systems. We are here to ensure you have an efficient and cost-effective solution.",
+    "three": "Our dedication to quality and customer satisfaction leads us to carry out heating installations precisely and with attention to detail. Your comfort is our priority, and we ensure that everything works properly and safely.",
+    "four": "Contact us today for a personalized quote for your heating installation. With our services, you can be sure you'll stay warm and comfortable throughout the winter."
+  },
+  "plumbing": {
+    "title": "PLUMBING INSTALLATIONS",
+    "name": "At Sitges Installations",
+    "one": ", we are dedicated to offering reliable and high-quality plumbing services in Sitges and the surrounding areas. We understand that efficient plumbing is crucial for the comfort and proper functioning of your homes and businesses.",
+    "two": "Our plumbing technicians are highly qualified and equipped to handle all types of plumbing jobs, from small repairs to complex installations. We make sure to follow the highest standards and regulations to ensure the safety and reliability of your plumbing installations.",
+    "three": "Whether you need to address issues like leaks, water damage, or malfunctions, or if you're planning a complete plumbing system renovation, we are here to help you solve your problems. We provide no-obligation personalized quotes and work quickly and efficiently to ensure everything functions properly.",
+    "four": "Rely on our plumbing services to keep your water flowing safely and trouble-free.",
+    "five": "Contact us today and let our plumbing experts take care of your needs."
+  },
+  "reforms": {
+    "title": "RENOVATIONS",
+    "name": "At Sitges Installations",
+    "one": ", we are not only specialized in installation services, but we also offer first-class renovation services for your homes and businesses in Sitges and the Garraf region. Renovations can transform your spaces and improve the functionality and aesthetics of your facilities.",
+    "two": "Our team of renovation professionals is ready to handle a wide range of projects, from kitchen and bathroom remodels to complete home and commercial property renovations. We work closely with you to understand your needs and preferences, and then carry out renovations with precision and attention to detail.",
+    "three": "Whether you're looking to modernize a part of your home, improve energy efficiency, or adapt a space for a specific purpose, we're here to bring your ideas to life. We ensure our renovations are completed within established deadlines and budgets, guaranteeing the final result is a renovated and enhanced facility.",
+    "four": "Contact us today to discuss your renovation needs and receive a personalized quote. We are here to help you transform your spaces into places that make you feel comfortable and satisfied. Your satisfaction is our priority."
+  },
+  "repairs": {
+    "title": "REPAIRS AND MAINTENANCE",
+    "name": "At Sitges Installations",
+    "one": ", we also offer reliable and efficient repair services for all your needs in Sitges and the surrounding areas. As professionals in the field, we know that repairs or breakdowns can occur at any time, and we are here to help you solve them quickly and effectively.",
+    "two": "Our repair technicians are highly qualified and experienced in solving common and complex problems. Whether you need to repair an electrical issue, a water leak, a malfunction in your HVAC system, or anything else, we are prepared to respond promptly.",
+    "three": "We understand that repairs can be urgent and disrupt your daily life. That's why we offer fast and effective repair services to ensure your facilities return to proper operation as soon as possible.",
+    "four": "Contact us today to schedule a repair visit or to get rapid assistance in case of an emergency. We are here to ensure your facilities are in the best condition and to provide you with peace of mind and comfort. Your satisfaction is our priority."
+  }
 }

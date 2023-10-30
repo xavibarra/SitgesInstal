@@ -1,3 +1,111 @@
 {
-  "prova": "Això es una prova"
+  "navBar": {
+    "us": "Nosaltres",
+    "services": "Serveis",
+    "contact": "Contacte"
+  },
+  "aboutUs": {
+    "about": "Sobre Nosaltres",
+    "welcome": "Benvinguts a",
+    "name": "Sitges Instal·lacions.",
+    "first": "Som una dedicada a tota mena d’instal·lacions. Com bé indica el nom, disposem d’oficina física a Sitges, i focalitzem la nostra activitat a la Comarca del Garraf, encara que atenem els nostres clients on ens sol·licitin.",
+    "second": "A la pàgina web, podreu trobar tots els serveis de què disposem, per donar-vos un servei de qualitat i amb total garantia.",
+    "third": "Per nosaltres,",
+    "span": "la satisfacció dels nostres clients és el més important",
+    "fourth": ", és per això que oferim un tracte proper i de confiança, cuidant fins a l’últim detall a cada projecte.",
+    "fifth": "Us animem a contactar-nos, i poder així assessorar-vos i començar a treballar amb el que necessiteu.",
+    "call": "TRUCA"
+  },
+  "services": {
+    "services": "Serveis",
+    "subtitle": "Oferim els sgüents serveis:",
+    "one": "Instal·lacions de plaques solars",
+    "two": "Instal·lacions elèctriques",
+    "three": "Instal·lació d'aigua",
+    "four": "Reformes",
+    "five": "Instal·lació de gas",
+    "six": "Calefacció",
+    "seven": "Aire condicionat",
+    "eight": "Manteniment i reparacions"
+  },
+  "ourWork": {
+    "title": "Els nostres treballs",
+    "subtitle": "Comproba la nostre feina:"
+  },
+  "reviews": {
+    "writte": "ESCRIURE UNA RESSENYA"
+  },
+  "contact": {
+    "title": "Contacte'ns",
+    "subtitle": "Envia'ns un mail",
+    "name": "SITGES INSTAL·LACIONS",
+    "find": "Troba'ns al mapa",
+    "openMap": "OBRE EL MAPA",
+    "adress": "Carrer Verge de la Llum 6"
+  },
+  "solarPanels": {
+    "title": "INSTAL·LACIÓ DE PLAQUES SOLARS",
+    "name": "A Sitges Instal·lacions",
+    "one": ", estem compromesos a oferir als nostres clients un servei d'alta qualitat que no només els permeti estalviar en les seves factures d'energia, sinó que també contribueixi a la preservació del medi ambient.",
+    "two": "Els nostres tècnics altament capacitats estan a la vostra disposició per proporcionar assessorament personalitzat i dur a terme la instal·lació de plaques solars que s'adaptin de la millor manera possible a la vostra llar o negoci. Ens preocupem pel benestar dels nostres treballadors, i tots els projectes es realitzen seguint rigorosament els estàndards, garantint un entorn de treball fiable i protegit.",
+    "three": "En triar-nos, no només esteu invertint en una font d'energia més neta i sostenible, sinó que també esteu invertint en el benestar de la vostra comunitat i en un futur més sa per a tots.",
+    "four": "Poseu-vos en contacte amb nosaltres avui mateix per sol·licitar el vostre pressupost sense compromís per a la instal·lació de plaques solars a Sitges i a tot el Garraf. Estem aquí per ajudar-vos a donar el pas cap a un demà més brillant i més ecològic."
+  },
+  "airConditioning": {
+    "title": "INSTAL·LACIÓ D'AIRE ACONDICIONAT",
+    "name": "A Sitges Instal·lacions",
+    "one": ", la nostra missió és proporcionar als nostres clients solucions de climatització excepcionals que garanteixin la comoditat i l'eficiència energètica a les seves llars i empreses. Amb anys d'experiència en el sector, el nostre equip de tècnics qualificats està compromès a oferir els millors serveis d'instal·lació d'aires acondicionats a Sitges i la regió del Garraf.",
+    "two": "Entenem la importància de mantenir un ambient interior agradable durant les estacions càlides i fredes, i és per això que oferim assessorament personalitzat per assegurar-nos que trieu la millor opció d'aire acondicionat per a les vostres necessitats específiques. La nostra instal·lació és precisa i minuciosa, i seguim estrictament els estàndards de qualitat per garantir un rendiment òptim.",
+    "three": "Quan trieu els nostres serveis d'instal·lació d'aires acondicionats, no només esteu assegurant un ambient més confortable i agradable, sinó que també esteu fent una inversió en estalvi energètic i reducció de costos.",
+    "four": "Poseu-vos en contacte amb nosaltres avui mateix per obtenir un pressupost sense compromís i comenceu a gaudir d'una climatització de primera classe a la vostra llar o empresa. Estem aquí per fer del vostre entorn un lloc més agradable i eficient."
+  },
+  "electrical": {
+    "title": "INSTAL·LACIONS ELÈCTRIQUES",
+    "name": "A Sitges Instal·lacions",
+    "one": ", som experts en la realització d'instal·lacions elèctriques de primera qualitat a Sitges i la comarca del Garraf. La nostra dedicació es centra a proporcionar als nostres clients un subministrament elèctric segur i eficient per a les seves llars i empreses.",
+    "two": "El nostre equip de tècnics altament qualificats té l'experiència necessària per gestionar projectes d'instal·lacions elèctriques de tot tipus, des de petits canvis i reparacions fins a instal·lacions completes en noves construccions. Treballem amb cura i atenció als detalls per garantir que tots els components elèctrics funcionin correctament i compleixin amb les normatives de seguretat..",
+    "three": "Quan confieu en els nostres serveis d'instal·lacions elèctriques, podeu estar segurs que esteu protegint la vostra llar o empresa contra riscos elèctrics i assegurant un funcionament sense problemes dels vostres equips i sistemes elèctrics.",
+    "four": "Poseu-vos en contacte amb nosaltres avui mateix per obtenir un pressupost personalitzat i garantiu la vostra tranquil·litat elèctrica. Estem aquí per fer que la vostra instal·lació sigui segura i fiable."
+  },
+  "gas": {
+    "title": "INSTAL·LACIÓ DE GAS",
+    "name": "A Sitges Instal·lacions",
+    "one": ", ens dediquem a oferir  serveis d'instal·lacions de gas de confiança a Sitges i tota la regió del Garraf. Com a especialistes en aquest camp, tenim com a prioritat garantir que les vostres instal·lacions de gas siguin segures, eficients i còmodes.",
+    "two": "Els nostres tècnics qualificats i experimentats estan preparats per gestionar tots els aspectes de la vostra instal·lació de gas, ja sigui per a ús domèstic o comercial. Des de la instal·lació de noves xarxes de gas fins a la reparació i el manteniment de les existents, podeu confiar en la nostra experiència i coneixement.",
+    "three": "Entenem la importància de la seguretat quan es tracta de gas, i seguim rigorosament totes les normatives i reglamentacions per garantir que la vostra instal·lació sigui totalment segura i funcioni sense problemes.",
+    "four": "Poseu-vos en contacte amb nosaltres avui mateix per rebre un pressupost personalitzat sense compromís i gaudiu de la tranquilitat de tenir una instal·lació de gas fiable i eficient a casa vostra o al vostre negoci. Estem aquí per atendre totes les vostres necessitats de gas amb professionalitat i dedicació."
+  },
+  "heating": {
+    "title": "INSTAL·LACIÓ DE CALEFACCIÓ",
+    "name": "A Sitges Instal·lacions",
+    "one": ", ens dediquem a proporcionar solucions de calefacció de primer nivell a Sitges i la comarca del Garraf. Entenem que mantenir un ambient càlid i acollidor és fonamental per al vostre confort especialment durant els mesos d'hivern.",
+    "two": "Els nostres tècnics experts estan preparats per ajudar-vos a triar i instal·lar el sistema de calefacció que millor s'ajusti a les vostres necessitats i preferències. Ja sigui una caldera, radiadors, calefacció per terra radiant o altres sistemes, estem aquí per assegurar-nos que tingueu una solució eficient i econòmica.",
+    "three": "La nostra dedicació a la qualitat i la satisfacció del client ens porta a realitzar les instal·lacions de calefacció de manera precisa i amb atenció als detalls. La vostra comoditat és la nostra prioritat, i ens assegurem que tot funcioni correctament i de manera segura.",
+    "four": "Poseu-vos en contacte amb nosaltres avui mateix per obtenir un pressupost personalitzat per la vostra instal·lació de calefacció. Amb els nostres serveis, podeu estar segurs que us mantindreu càlids i còmodes durant tot l'hivern."
+  },
+  "plumbing": {
+    "title": "INSTAL·LACIONS D'AIGUA",
+    "name": "A Sitges Instal·lacions",
+    "one": ", estem dedicats a oferir serveis de fontaneria fiables i de qualitat a Sitges i les zones adjacents. Sabem que una xarxa de fontaneria eficient és crucial per a la comoditat i el funcionament correcte de les vostres llars i negocis.",
+    "two": "Els nostres tècnics de fontaneria estan altament qualificats i equipats per gestionar tot tipus de treballs de fontaneria, des de petites reparacions fins a instal·lacions complexes. Ens assegurem de seguir les normatives i els estàndards més alts per garantir la seguretat i la fiabilitat de les vostres instal·lacions de fontaneria.",
+    "three": "Ja sigui que necessiteu solucionar problemes com goteres, fugues o avaries, o si esteu planejant una renovació completa del sistema de fontaneria, estem aquí per ajudar-vos a resoldre els vostres problemes. Proporcionem pressupostos personalitzats sense compromís i treballem amb rapidesa i eficàcia per assegurar-nos que tot funcioni correctament.",
+    "four": "Confieu en els nostres serveis de fontaneria per mantenir la vostra aigua fluint de manera segura i sense problemes.",
+    "five": "Poseu-vos en contacte amb nosaltres avui mateix i deixeu que els nostres experts en fontaneria es facin càrrec de les vostres necessitats."
+  },
+  "reforms": {
+    "title": "REFORMAS",
+    "name": "A Sitges Instal·lacions",
+    "one": ", no només estem especialitzats en serveis d'instal·lació, sinó que també oferim serveis de reforma de primera classe per a les vostres llars i empreses a Sitges i la comarca del Garraf. Les reformes poden transformar els vostres espais i millorar la funcionalitat i l'estètica de les vostres instal·lacions.",
+    "two": "El nostre equip de professionals en reformes està preparat per gestionar una àmplia gamma de projectes, des de reformes de cuines i banys fins a renovacions completes de vivendes i locals comercials. Treballem en estreta col·laboració amb vosaltres per entendre les vostres necessitats i preferències, i després portem a terme les reformes amb precisió i atenció als detalls.",
+    "three": "Ja sigui que estigueu buscant modernitzar una part de la vostra llar, millorar l'eficiència energètica o adaptar un espai per a un propòsit específic, estem aquí per fer realitat les vostres idees. Garantim que les nostres reformes es compleixin dins dels terminis i pressupostos establerts, assegurant-vos que el resultat final sigui una instal·lació renovada i millorada.",
+    "four": "Poseu-vos en contacte amb nosaltres avui mateix per parlar de les vostres necessitats de reforma i obtenir un pressupost personalitzat. Estem aquí per ajudar-vos a transformar els vostres espais en espais que us facin sentir còmodes i satisfets. La vostra satisfacció és la nostra prioritat."
+  },
+  "repairs": {
+    "title": "REPARACIONS I MANTENIMENT",
+    "name": "A Sitges Instal·lacions",
+    "one": ", també oferim serveis de reparacions fiables i eficients per a totes les vostres necessitats a Sitges i els voltants. Com a professionals en el camp, sabem que les reparacions o les avaries poden sorgir en qualsevol moment, i estem aquí per ajudar-vos a solucionar-les de manera ràpida i efectiva.",
+    "two": "El nostre equip de tècnics de reparació està altament qualificat i experimentat en la resolució de problemes comuns i complexes. Ja sigui que necessiteu reparar una avaria elèctrica, una fuita d'aigua, una avaria en el vostre sistema de climatització o qualsevol altra cosa, estem preparats per respondre amb rapidesa.",
+    "three": "Entenem que les reparacions poden ser urgents i interferir en la vostra vida diària. És per això que oferim serveis de reparació ràpids i efectius per assegurar-nos que les vostres instal·lacions tornin a funcionar com cal en el menor temps possible.",
+    "four": "Poseu-vos en contacte amb nosaltres avui mateix per programar una visita de reparació o per aconseguir assistència ràpida en cas d'emergència. Estem aquí per garantir que les vostres instal·lacions estiguin en les millors condicions i per proporcionar-vos pau mental i comoditat. La vostra satisfacció és la nostra prioritat."
+  }
 }

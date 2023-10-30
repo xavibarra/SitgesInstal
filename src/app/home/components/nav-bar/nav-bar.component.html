@@ -1,9 +1,19 @@
 <nav class="navbar">
   <div class="navbar-logo">Sitges Instal·lacions</div>
   <ul class="navbar-links" [class.active]="isMobileMenuOpen">
-    <li><a (click)="scrollToSection('aboutUs')">Nosaltres</a></li>
-    <li><a (click)="scrollToSection('services')">Serveis</a></li>
-    <li><a (click)="scrollToSection('contact')">Contacte</a></li>
+    <li>
+      <a (click)="scrollToSection('aboutUs')">{{ "navBar.us" | translate }}</a>
+    </li>
+    <li>
+      <a (click)="scrollToSection('services')">{{
+        "navBar.services" | translate
+      }}</a>
+    </li>
+    <li>
+      <a (click)="scrollToSection('contact')">{{
+        "navBar.contact" | translate
+      }}</a>
+    </li>
     <div class="language-selector" (click)="toggleOptions()">
       <img [src]="selectedFlag" alt="Flag" class="flag" />
       <span class="arrow">▼</span>

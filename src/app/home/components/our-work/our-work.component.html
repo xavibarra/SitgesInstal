@@ -3,8 +3,10 @@
   style="background-color: #aabad0; padding-bottom: 50px"
   class="marginb our-work"
 >
-  <h2 class="centred-text marginb text-white">Els nostres treballs</h2>
-  <p class="centred-text marginb">Comproba la nostre feina:</p>
+  <h2 class="centred-text marginb text-white">
+    {{ "ourWork.title" | translate }}
+  </h2>
+  <p class="centred-text marginb">{{ "ourWork.subtitle" | translate }}</p>
   <div class="carousel-container">
     <ngx-slick-carousel
       class="carousel"
