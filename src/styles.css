@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2{
+  color: #6585B0;
+}
+h2{
+  font-size: 32px;
+  font-weight: 800;
+}
+h3{
+  color: #ffff;
+  font-size: 24px;
+}
+h4{
+  color: #6585B0;
+  font-size: 20px;
+}
+.textBlue{
+  color: #6585B0;
+}
+.text-white{
+  color: white;
+}
+.bold{
+  font-weight: bold;
+}
+.centred-text{
+  text-align: center;
+}
+.marginb{
+  margin-bottom: 20px;
+}
+.margint{
+  margin-top: 15px;
+}
+.redirectButton{
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #6585B0;
+  border-radius: 15px;
+  width: auto;
+  margin: 10px auto;
+  padding: 5px 15px;
+  cursor: pointer	;
+}
+.redirectButton:hover{
+  transform: scale(1.1);
+}
+.buttonContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+html, body { height: 100%; }
+
+@media screen and (min-width:799px){
+  h2{
+    font-size: 36px;
+  }
+}

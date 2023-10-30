@@ -1,0 +1,9 @@
+<div class="background-card" (click)="onCardClick()">
+  <div
+    class="background-image"
+    [style.background-image]="'url(' + backgroundImage + ')'"
+  ></div>
+  <div class="content">
+    <ng-content></ng-content>
+  </div>
+</div>

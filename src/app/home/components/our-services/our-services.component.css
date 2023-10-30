@@ -1,0 +1,23 @@
+.services-cards{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+.services-card{
+  margin: 15px;
+}
+app-service-card:hover{
+  transform: scale(1.1);
+}
+@media screen and (min-width: 799px) {
+  .services-cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5%;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .services-cards {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 5%;
+  }
+}

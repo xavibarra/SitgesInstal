@@ -1,0 +1,19 @@
+<section
+  id="ourWork"
+  style="background-color: #aabad0; padding-bottom: 50px"
+  class="marginb our-work"
+>
+  <h2 class="centred-text marginb text-white">Els nostres treballs</h2>
+  <p class="centred-text marginb">Comproba la nostre feina:</p>
+  <div class="carousel-container">
+    <ngx-slick-carousel
+      class="carousel"
+      #slickModal="slick-carousel"
+      [config]="slideConfig"
+    >
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img src="{{ slide.img }}" alt="img" class="img-style marginb" />
+      </div>
+    </ngx-slick-carousel>
+  </div>
+</section>

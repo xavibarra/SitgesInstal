@@ -1,0 +1,43 @@
+<section id="contact" class="margint contact-section">
+  <h2 class="centred-text marginb">Contacte'ns</h2>
+  <div class="contact-display">
+    <div class="contact-card">
+      <h3 class="margint">Envia'ns un mail</h3>
+      <form ngNoForm [action]="url" method="POST" class="contact-form">
+        <input type="text" placeholder="Nom" name="Name" />
+        <input type="text" placeholder="Teléfon" name="Phone" />
+        <input type="email" placeholder="Email" name="Email" />
+        <textarea
+          name="text"
+          cols="15"
+          rows="5"
+          placeholder="Missatge..."
+        ></textarea>
+        <input class="send-email" type="submit" value="Enviar" />
+        <input type="hidden" name="_next" value="http://localhost:4200/home" />
+        <input type="hidden" name="_captcha" value="false" />
+      </form>
+    </div>
+    <div class="map-info">
+      <h4 class="margint">SITGES INSTAL·LACIONS</h4>
+      <p class="marginb margint">Troba'ns al mapa</p>
+      <div
+        class="elfsight-app-1cff268d-9a25-43af-9e61-6940ff41fe2f map marginb"
+        data-elfsight-app-lazy
+      ></div>
+      <div>
+        <div class="buttonContainer">
+          <button
+            class="margint redirectButton"
+            (click)="redirectToGoogleMaps()"
+          >
+            OBRE EL MAPA
+          </button>
+        </div>
+        <aside class="margint">Carrer Verge de la Llum 6</aside>
+        <aside>info@sitgesinstal.com</aside>
+        <aside>686 458 360</aside>
+      </div>
+    </div>
+  </div>
+</section>
