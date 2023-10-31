@@ -4,17 +4,29 @@
     <div class="contact-card">
       <h3 class="margint">{{ "contact.subtitle" | translate }}</h3>
       <form ngNoForm [action]="url" method="POST" class="contact-form">
-        <input type="text" placeholder="Nom" name="Name" />
-        <input type="text" placeholder="Teléfon" name="Phone" />
-        <input type="email" placeholder="Email" name="Email" />
+        <input
+          type="text"
+          [placeholder]="'contact.nameForm' | translate"
+          name="Name"
+        />
+        <input
+          type="text"
+          [placeholder]="'contact.phoneNumber' | translate"
+          name="Phone"
+        />
+        <input
+          type="email"
+          [placeholder]="'contact.email' | translate"
+          name="Email"
+        />
         <textarea
           name="text"
           cols="15"
           rows="5"
-          placeholder="Missatge..."
+          [placeholder]="'contact.message' | translate"
         ></textarea>
         <input class="send-email" type="submit" value="Enviar" />
-        <input type="hidden" name="_next" value="http://localhost:4200/home" />
+        <input type="hidden" name="_next" value="http://sitgesinstal.com" />
         <input type="hidden" name="_captcha" value="false" />
       </form>
     </div>
@@ -34,9 +46,11 @@
             {{ "contact.openMap" | translate }}
           </button>
         </div>
-        <aside class="margint">{{ "contact.adress" | translate }}</aside>
-        <aside>info@sitgesinstal.com</aside>
-        <aside>686 458 360</aside>
+        <div class="contact-information">
+          <aside class="margint">{{ "contact.adress" | translate }}</aside>
+          <aside>info@sitgesinstal.com</aside>
+          <aside>{{ "contact.phone" | translate }}</aside>
+        </div>
       </div>
     </div>
   </div>

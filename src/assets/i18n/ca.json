@@ -8,7 +8,7 @@
     "about": "Sobre Nosaltres",
     "welcome": "Benvinguts a",
     "name": "Sitges Instal·lacions.",
-    "first": "Som una dedicada a tota mena d’instal·lacions. Com bé indica el nom, disposem d’oficina física a Sitges, i focalitzem la nostra activitat a la Comarca del Garraf, encara que atenem els nostres clients on ens sol·licitin.",
+    "first": "Som una empresa dedicada a tota mena d’instal·lacions. Com bé indica el nostre nom, disposem d’oficina física a Sitges, i focalitzem la nostra activitat a la Comarca del Garraf, encara que atenem els nostres clients on ens sol·licitin.",
     "second": "A la pàgina web, podreu trobar tots els serveis de què disposem, per donar-vos un servei de qualitat i amb total garantia.",
     "third": "Per nosaltres,",
     "span": "la satisfacció dels nostres clients és el més important",
@@ -18,7 +18,7 @@
   },
   "services": {
     "services": "Serveis",
-    "subtitle": "Oferim els sgüents serveis:",
+    "subtitle": "Oferim els següents serveis:",
     "one": "Instal·lacions de plaques solars",
     "two": "Instal·lacions elèctriques",
     "three": "Instal·lació d'aigua",
@@ -41,7 +41,12 @@
     "name": "SITGES INSTAL·LACIONS",
     "find": "Troba'ns al mapa",
     "openMap": "OBRE EL MAPA",
-    "adress": "Carrer Verge de la Llum 6"
+    "adress": "Carrer Verge de la Llum 6",
+    "phone": "686 458 360",
+    "nameForm": "Nom",
+    "phoneNumber": "Teléfon",
+    "email": "Email",
+    "message": "Missatge..."
   },
   "solarPanels": {
     "title": "INSTAL·LACIÓ DE PLAQUES SOLARS",
@@ -63,7 +68,7 @@
     "title": "INSTAL·LACIONS ELÈCTRIQUES",
     "name": "A Sitges Instal·lacions",
     "one": ", som experts en la realització d'instal·lacions elèctriques de primera qualitat a Sitges i la comarca del Garraf. La nostra dedicació es centra a proporcionar als nostres clients un subministrament elèctric segur i eficient per a les seves llars i empreses.",
-    "two": "El nostre equip de tècnics altament qualificats té l'experiència necessària per gestionar projectes d'instal·lacions elèctriques de tot tipus, des de petits canvis i reparacions fins a instal·lacions completes en noves construccions. Treballem amb cura i atenció als detalls per garantir que tots els components elèctrics funcionin correctament i compleixin amb les normatives de seguretat..",
+    "two": "El nostre equip de tècnics altament qualificats té l'experiència necessària per gestionar projectes d'instal·lacions elèctriques de tot tipus, des de petits canvis i reparacions fins a instal·lacions completes en noves construccions. Treballem amb cura i atenció als detalls per garantir que tots els components elèctrics funcionin correctament i compleixin amb les normatives de seguretat.",
     "three": "Quan confieu en els nostres serveis d'instal·lacions elèctriques, podeu estar segurs que esteu protegint la vostra llar o empresa contra riscos elèctrics i assegurant un funcionament sense problemes dels vostres equips i sistemes elèctrics.",
     "four": "Poseu-vos en contacte amb nosaltres avui mateix per obtenir un pressupost personalitzat i garantiu la vostra tranquil·litat elèctrica. Estem aquí per fer que la vostra instal·lació sigui segura i fiable."
   },
