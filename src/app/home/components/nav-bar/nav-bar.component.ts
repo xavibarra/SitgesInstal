@@ -20,12 +20,6 @@ export class NavBarComponent implements OnInit {
   constructor(private translate: TranslateService) {}
   toggleOptions() {
     this.optionsOpen = !this.optionsOpen;
-    if (this.optionsOpen) {
-      console.log('abierto');
-    } else {
-      console.log('cerrar');
-    }
-    console.log('menu banderas');
   }
 
   selectLanguage(language: string) {
