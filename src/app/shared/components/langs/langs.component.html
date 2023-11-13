@@ -1,0 +1,15 @@
+<div class="language-selector" (click)="onToggleOptions()">
+  <img
+    [src]="'assets/img/' + selectedLanguage?.name"
+    [alt]="selectedLanguage?.alt"
+    class="flag"
+  />
+  <span class="arrow">▼</span>
+  <ul class="options" *ngIf="toggleOptions">
+    <ng-container *ngFor="let lang of LANGS">
+      <li (click)="onSelectLang(lang.value)">
+        <img [src]="'assets/img/' + lang.name" [alt]="lang.alt" />
+      </li>
+    </ng-container>
+  </ul>
+</div>

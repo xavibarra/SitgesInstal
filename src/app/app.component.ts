@@ -1,34 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  template: '<router-outlet></router-outlet>',
 })
-export class AppComponent {
-  title = 'web_sitgesinstal';
-  constructor(private translate: TranslateService) {
-    translate.setDefaultLang('ca');
+export class AppComponent implements OnInit {
+  constructor(private readonly _translate: TranslateService) {}
 
-    // Verifica si hay un idioma guardado en el localStorage
-    const savedLanguage = localStorage.getItem('preferredLanguage');
+  ngOnInit(): void {
+    this._translate.addLangs(['en', 'es', 'ca']);
 
-    // Si hay un idioma guardado, úsalo; de lo contrario, usa el idioma predeterminado (ca).
-    if (savedLanguage) {
-      translate.use(savedLanguage);
-    } else {
-      translate.use('ca');
-
-      // Guarda el idioma predeterminado en el localStorage.
-      localStorage.setItem('preferredLanguage', 'ca');
-    }
-  }
-
-  useLanguage(language: string): void {
-    this.translate.use(language);
-
-    // Guarda el idioma seleccionado en el localStorage.
+    const language = localStorage.getItem('preferredLanguage') ?? 'ca';
     localStorage.setItem('preferredLanguage', language);
+    this._translate.use(language);
   }
 }
