@@ -1,0 +1,32 @@
+<app-nav-bar-services></app-nav-bar-services>
+
+<h1 class="centred-text margint marginb">
+  {{ service.title | translate }}
+</h1>
+<div class="panels-section">
+  <div class="img-services-page">
+    <img
+      class="img-desktop"
+      [src]="service.imgDesktop"
+      [alt]="service.imgAlt"
+    />
+    <img class="img-mobile" [src]="service.imgMobile" [alt]="service.imgAlt" />
+  </div>
+  <div class="panels-text">
+    <p class="marginb margint">
+      <span class="textBlue bold">{{
+        service.description.title | translate
+      }}</span
+      >{{ service.description.span4 | translate }}
+    </p>
+    <p class="marginb">
+      {{ service.description.span2 | translate }}
+    </p>
+    <p class="marginb">
+      {{ service.description.span3 | translate }}
+    </p>
+    <p class="marginb">
+      {{ service.description.span4 | translate }}
+    </p>
+  </div>
+</div>
