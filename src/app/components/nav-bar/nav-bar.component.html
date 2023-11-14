@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <div class="navbar-logo" [routerLink]="'/'">Sitges Instal·lacions</div>
+  <ng-container *ngIf="_router.url.includes('/home')">
+    <ul class="navbar-links" [class.active]="isMobileMenuOpen">
+      <li>
+        <a (click)="scrollToSection('aboutUs')">{{
+          "navBar.us" | translate
+        }}</a>
+      </li>
+      <li>
+        <a (click)="scrollToSection('services')">{{
+          "navBar.services" | translate
+        }}</a>
+      </li>
+      <li>
+        <a (click)="scrollToSection('contact')">{{
+          "navBar.contact" | translate
+        }}</a>
+      </li>
+      <li>
+        <a href="tel:686458360">{{ "aboutUs.call" | translate }}</a>
+      </li>
+      <app-langs></app-langs>
+    </ul>
+    <div class="navbar-mobile" (click)="toggleMobileMenu()">☰</div>
+  </ng-container>
+  <ng-container *ngIf="_router.url.includes('/services')">
+    <app-langs></app-langs>
+  </ng-container>
+</nav>

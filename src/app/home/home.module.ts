@@ -6,10 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
-import { SharedModule } from '../shared/shared.module';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { GoogleReviewsComponent } from './components/google-reviews/google-reviews.component';
 import { OurServicesComponent } from './components/our-services/our-services.component';
 import { OurWorkComponent } from './components/our-work/our-work.component';
@@ -28,7 +26,6 @@ import { HomeComponent } from './pages/home/home.component';
     ContactComponent,
     VideoBackgroundComponent,
     GoogleReviewsComponent,
-    FooterComponent,
   ],
   imports: [
     CommonModule,
@@ -37,7 +34,6 @@ import { HomeComponent } from './pages/home/home.component';
     HttpClientModule,
     TranslateModule,
     FormsModule,
-    SharedModule,
   ],
 })
 export class HomeModule {}

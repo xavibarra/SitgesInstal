@@ -1,4 +1,4 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -15,6 +15,7 @@ export class ContactComponent implements AfterViewInit {
     script.defer = true;
     document.head.appendChild(script);
   }
+
   redirectToGoogleMaps() {
     const mapsUrl =
       'https://www.google.com/maps/place/Sitges+Instal.lacions/@41.2409207,1.8137813,18z/data=!4m6!3m5!1s0x12a38143413f047f:0x2cc4a3fb0196cccf!8m2!3d41.240939!4d1.8139375!16s%2Fg%2F11tf3xjfn1?hl=es-ES&entry=ttu';

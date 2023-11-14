@@ -1,4 +1,5 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,11 +7,17 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./nav-bar.component.css'],
 })
 export class NavBarComponent {
+  @Input()
+  navbarType: 'home' | 'service' = 'home';
+
+  constructor(public readonly _router: Router) {}
+
   isMobileMenuOpen = false;
 
   toggleMobileMenu() {
     this.isMobileMenuOpen = !this.isMobileMenuOpen;
   }
+
   @HostListener('document:click', ['$event'])
   closeMobileMenuOnClickOutside(event: Event): void {
     if (this.isMobileMenuOpen) {
@@ -18,10 +25,8 @@ export class NavBarComponent {
       if (
         !targetElement.closest('.navbar-links') &&
         !targetElement.closest('.navbar-mobile')
-      ) {
-        // Si se hace clic fuera del menú y del botón hamburguesa, cierra el menú.
+      )
         this.isMobileMenuOpen = false;
-      }
     }
   }
 

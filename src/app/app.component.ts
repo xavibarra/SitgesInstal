@@ -3,7 +3,15 @@ import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
-  template: '<router-outlet></router-outlet>',
+  template: `
+    <header>
+      <app-nav-bar></app-nav-bar>
+    </header>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+    <app-footer></app-footer>
+  `,
 })
 export class AppComponent implements OnInit {
   constructor(private readonly _translate: TranslateService) {}
