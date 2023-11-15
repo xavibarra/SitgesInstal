@@ -78,7 +78,14 @@ html,
 body {
   height: 100%;
 }
-
+app-root {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+app-footer {
+  margin-top: auto;
+}
 @media screen and (min-width: 799px) {
   h2 {
     font-size: 36px;

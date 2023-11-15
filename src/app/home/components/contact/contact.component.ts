@@ -6,7 +6,7 @@ import { AfterViewInit, Component } from '@angular/core';
   styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent implements AfterViewInit {
-  url = 'https://formsubmit.co/info@sitgesinstal.com';
+  url = 'https://formsubmit.co/xbarrachinafont@gmail.com';
 
   ngAfterViewInit() {
     const script = document.createElement('script');

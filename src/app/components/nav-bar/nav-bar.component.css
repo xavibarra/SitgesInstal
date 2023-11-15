@@ -23,6 +23,7 @@
 .navbar-links li a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .navbar-mobile {

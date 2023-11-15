@@ -1,17 +1,17 @@
-footer{
+footer {
   background-color: #333;
   padding: 20px;
 }
-.copy{
+.copy {
   margin-bottom: 10px;
 }
-@media screen and (min-width:799px) {
-  footer{
+@media screen and (min-width: 799px) {
+  footer {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
   }
-  .copy{
+  .copy {
     margin-bottom: 0px;
   }
 }
