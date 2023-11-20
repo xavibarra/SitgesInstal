@@ -3,31 +3,35 @@
   <div class="contact-display">
     <div class="contact-card">
       <h3 class="margint">{{ "contact.subtitle" | translate }}</h3>
-      <form ngNoForm [action]="url" method="POST" class="contact-form">
+      <form [formGroup]="form" action="javascript:void(0)" (submit)="send()">
         <input
           type="text"
+          formControlName="from_name"
           [placeholder]="'contact.nameForm' | translate"
           name="Name"
         />
         <input
           type="text"
+          formControlName="from_phone"
           [placeholder]="'contact.phoneNumber' | translate"
           name="Phone"
         />
         <input
           type="email"
+          formControlName="from_email"
           [placeholder]="'contact.email' | translate"
           name="Email"
         />
         <textarea
           name="text"
+          formControlName="message"
           cols="15"
           rows="5"
           [placeholder]="'contact.message' | translate"
         ></textarea>
         <input class="send-email" type="submit" value="Enviar" />
-        <input type="hidden" name="_next" value="http://sitgesinstal.com" />
-        <input type="hidden" name="_captcha" value="false" />
+        <!-- <input type="hidden" name="_next" value="http://sitgesinstal.com" />
+        <input type="hidden" name="_captcha" value="false" /> -->
       </form>
     </div>
     <div class="map-info">
