@@ -17,8 +17,8 @@ interface ServiceDescription {
 export const SERVICES: Record<string, Service> = {
   'air-conditioning': {
     title: 'airConditioning.title',
-    imgDesktop: 'assets/img/services-airConditioning.jpg',
-    imgMobile: 'assets/img/air-conditioning.jpg',
+    imgDesktop: 'assets/img/air-conditioning.jpg',
+    imgMobile: 'assets/img/services-airConditioning.jpg',
     imgAlt: 'Air conditioning instalation',
     description: {
       title: 'airConditioning.name',
@@ -30,8 +30,8 @@ export const SERVICES: Record<string, Service> = {
   },
   electrical: {
     title: 'electrical.title',
-    imgDesktop: 'assets/img/electrical-instalation2.jpg',
-    imgMobile: 'assets/img/electrical-instalation1.jpg',
+    imgDesktop: 'assets/img/electrical-instalation1.jpg',
+    imgMobile: 'assets/img/electrical-instalation2.jpg',
     imgAlt: 'Electrical instalation',
     description: {
       title: 'electrical.name',
@@ -83,7 +83,7 @@ export const SERVICES: Record<string, Service> = {
   reforms: {
     title: 'reforms.title',
     imgDesktop: 'assets/img/reforms1.jpg',
-    imgMobile: 'assets/img/reforms1.jpg',
+    imgMobile: 'assets/img/repairs.jpg',
     imgAlt: 'Reforms',
     description: {
       title: 'reforms.name',
@@ -95,7 +95,7 @@ export const SERVICES: Record<string, Service> = {
   },
   repairs: {
     title: 'repairs.title',
-    imgDesktop: 'assets/img/repairs.jpg',
+    imgDesktop: 'assets/img/reforms1.jpg',
     imgMobile: 'assets/img/repairs.jpg',
     imgAlt: 'Repairs',
     description: {
@@ -108,8 +108,8 @@ export const SERVICES: Record<string, Service> = {
   },
   'solar-panels': {
     title: 'solarPanels.title',
-    imgDesktop: 'assets/img/panel4.jpg',
-    imgMobile: 'assets/img/panel6.jpeg',
+    imgDesktop: 'assets/img/panel6.jpeg',
+    imgMobile: 'assets/img/panel4.jpg',
     imgAlt: 'Solar panels instalation',
     description: {
       title: 'solarPanels.name',

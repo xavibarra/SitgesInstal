@@ -37,7 +37,7 @@ export class ContactComponent implements AfterViewInit {
       message: this.form.value.message,
     });
 
-    alert('mensaje enviado');
+    alert('Your email has been sent');
     this.form.reset();
   }
 

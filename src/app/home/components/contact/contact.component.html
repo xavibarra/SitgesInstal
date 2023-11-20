@@ -2,8 +2,13 @@
   <h2 class="centred-text marginb">{{ "contact.title" | translate }}</h2>
   <div class="contact-display">
     <div class="contact-card">
-      <h3 class="margint">{{ "contact.subtitle" | translate }}</h3>
-      <form [formGroup]="form" action="javascript:void(0)" (submit)="send()">
+      <h3 class="margint centred-text">{{ "contact.subtitle" | translate }}</h3>
+      <form
+        [formGroup]="form"
+        action="javascript:void(0)"
+        (submit)="send()"
+        class="contact-form"
+      >
         <input
           type="text"
           formControlName="from_name"
@@ -30,8 +35,6 @@
           [placeholder]="'contact.message' | translate"
         ></textarea>
         <input class="send-email" type="submit" value="Enviar" />
-        <!-- <input type="hidden" name="_next" value="http://sitgesinstal.com" />
-        <input type="hidden" name="_captcha" value="false" /> -->
       </form>
     </div>
     <div class="map-info">
