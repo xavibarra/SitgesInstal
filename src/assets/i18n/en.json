@@ -46,7 +46,9 @@
     "nameForm": "Name",
     "phoneNumber": "Phone",
     "email": "Email",
-    "message": "Message..."
+    "message": "Message...",
+    "privacity": "* You can check the privacy of your data in",
+    "document": "this document"
   },
   "solarPanels": {
     "title": "SOLAR PANEL INSTALLATION",

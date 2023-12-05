@@ -9,6 +9,8 @@ import emailjs from '@emailjs/browser';
   styleUrls: ['./contact.component.css'],
 })
 export class ContactComponent implements AfterViewInit {
+  pdfPath: string = 'assets/Drets de propietat.pdf';
+
   url = 'https://formsubmit.co/xbarrachinafont@gmail.com';
 
   ngAfterViewInit() {

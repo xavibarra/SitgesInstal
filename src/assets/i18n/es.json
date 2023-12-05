@@ -46,7 +46,9 @@
     "nameForm": "Nombre",
     "phoneNumber": "Teléfono",
     "email": "Email",
-    "message": "Mensaje..."
+    "message": "Mensaje...",
+    "privacity": "* Puedes consultar la privacidad de tus datos en",
+    "document": "este documento"
   },
   "solarPanels": {
     "title": "INSTALACIÓN DE PLACAS SOLARES",

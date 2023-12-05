@@ -35,6 +35,10 @@
           [placeholder]="'contact.message' | translate"
         ></textarea>
         <input class="send-email" type="submit" value="Enviar" />
+        <p>{{ "contact.privacity" | translate }}</p>
+        <a [href]="pdfPath" target="_blank">{{
+          "contact.document" | translate
+        }}</a>
       </form>
     </div>
     <div class="map-info">
